@@ -2,6 +2,10 @@
 
 A floating menu component with personality. Drop a cow on any website — it follows your cursor, opens a fullscreen GSAP menu, respects virtual fencing around all clickable elements, and shimmers gold when idle.
 
+![Spherical Cow Demo](demo.gif)
+
+[**Live demo**](https://iamkhayyam.github.io/spherical-cow/demo.html)
+
 ## Quick start
 
 ```html
