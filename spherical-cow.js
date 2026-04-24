@@ -212,7 +212,7 @@
         cy += (ty - cy) * lerp;
 
         // virtual fencing
-        var fenceEls = document.querySelectorAll("a, button, [onclick]");
+        var fenceEls = document.querySelectorAll("a, button, [onclick], input, textarea, select");
         var repelX = 0, repelY = 0;
         var cowCX = cx + fabW / 2, cowCY = cy + fabH / 2;
         for (var i = 0; i < fenceEls.length; i++) {
